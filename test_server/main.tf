@@ -3,7 +3,7 @@ resource "aws_eip_association" "eip_assoc" {
   allocation_id = "eipalloc-0ec3da46994ebecaf"
 }
 resource "aws_instance" "testserver" {
-  ami           = "ami-06fc49795bc410a0c" 
+  ami           = "ami-052c9af0c988f8bbd" 
   instance_type = "t2.micro" 
   key_name = "awsajay2999"
   vpc_security_group_ids= ["sg-04463616331ddcb75"]
