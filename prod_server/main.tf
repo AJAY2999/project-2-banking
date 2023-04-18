@@ -1,7 +1,7 @@
 resource "aws_instance" "prod-server" {
   ami           = "ami-079a2a9ac6ed876fc" 
   instance_type = "t2.micro"
-  key_name = "awsmobakey"
+  key_name = "awsajay2999"
   vpc_security_group_ids= ["sg-04463616331ddcb75"]
   connection {
     type     = "ssh"
