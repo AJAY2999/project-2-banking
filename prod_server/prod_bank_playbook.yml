@@ -12,5 +12,5 @@
   - name : Start Docker Service
     command : sudo systemctl start docker
   - name : run the Bank application
-    command: sudo docker run -dt -p 7000:8081 --name finance nagaraju18/banking_finance_domain:latest
+    command: sudo docker run -dt -p 7000:8081 --name finance ajaymaverick/bankingproject2:latest
 
