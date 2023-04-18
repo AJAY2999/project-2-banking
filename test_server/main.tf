@@ -6,7 +6,7 @@ resource "aws_instance" "testserver" {
   ami           = "ami-06fc49795bc410a0c" 
   instance_type = "t2.micro" 
   key_name = "awsajay2999"
-  vpc_security_group_ids= ["sg-072ba23abfbf88d71"]
+  vpc_security_group_ids= ["sg-04463616331ddcb75"]
   connection {
     type     = "ssh"
     user     = "ec2-user"
